@@ -1,0 +1,15 @@
+id:
+  providerName: admin
+  apiName: MapQuest Geocoding API
+  version: v1
+description: Services for forward and reverse geocoding
+type: HTTP
+context: /MapQuest Geocoding API/v1
+contextTemplate: /MapQuest Geocoding API/{version}
+availableTiers:
+- name: Unlimited
+status: CREATED
+visibility: public
+transports: http,https
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081
